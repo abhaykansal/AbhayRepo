@@ -18,7 +18,7 @@ public class clientapi {
 		       ConversionRate conversionRate = new ConversionRate();
 		       conversionRate.setFromCurrency(Currency.USD);
 		       conversionRate.setToCurrency(Currency.INR);
-		       
+		       //hello check compare
 
 		       //Create the ConversionRateResponse object, which is going to be used to catch the response
 		       //call the conversionRate service using the stub object
