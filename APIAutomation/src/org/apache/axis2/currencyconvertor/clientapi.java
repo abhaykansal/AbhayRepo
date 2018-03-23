@@ -14,10 +14,11 @@ public class clientapi {
 		       //Create the stub object by passing the service end point url
 		       CurrencyConvertorStub stub = new CurrencyConvertorStub("http://www.webservicex.net/CurrencyConvertor.asmx");
 		       //ConversionRate is the class which we have to use mention the from and to currency
-		       //ConversionRate object will be the parameter for the conversionRate operation
+		       //ConversionRhttp://download.eclipse.org/egit/updateshttp://download.eclipse.org/egit/updatesate object will be the parameter for the conversionRate operation
 		       ConversionRate conversionRate = new ConversionRate();
 		       conversionRate.setFromCurrency(Currency.USD);
 		       conversionRate.setToCurrency(Currency.INR);
+		       
 
 		       //Create the ConversionRateResponse object, which is going to be used to catch the response
 		       //call the conversionRate service using the stub object
